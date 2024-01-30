@@ -1,6 +1,6 @@
 import { MockAgent, setGlobalDispatcher } from 'undici';
+import { RestClient } from '.';
 import { RequestError } from './errors';
-import { RestClient } from './rest-client';
 
 const mockAgent = new MockAgent({ connections: 1 });
 
