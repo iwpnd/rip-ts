@@ -1,3 +1,17 @@
+## [1.0.4](https://github.com/iwpnd/rip-ts/compare/v1.0.3...v1.0.4) (2024-03-10)
+
+
+### Other
+
+* 📦️ update typescript ([646a7ec](https://github.com/iwpnd/rip-ts/commit/646a7ec8beb6c32748e8cd0abf9054542a9f95a9))
+* **deps-dev:** 🔧 .editorconfig ([9915e3f](https://github.com/iwpnd/rip-ts/commit/9915e3f91372da0ae08ccae1262698fa63e069a0))
+* **deps-dev:** 🔧 update ([688a259](https://github.com/iwpnd/rip-ts/commit/688a259edb959d419faaa73f30df7793945cf24f))
+* **deps-dev:** 🔧 update ([2893ca4](https://github.com/iwpnd/rip-ts/commit/2893ca4be1a6ccca4bb7d3971093d0fe373c4aed))
+* **deps-dev:** 🔧 update ([c25f4d3](https://github.com/iwpnd/rip-ts/commit/c25f4d3e8d49beafa0014d6c54b18b1d947f58a6))
+* **deps-dev:** 🔧 update ([ce847f1](https://github.com/iwpnd/rip-ts/commit/ce847f1f08a81109e795958b0014635b726be5a9))
+* **deps-dev:** 🔧 update commitlint & lockfile maintenance ([c2d5858](https://github.com/iwpnd/rip-ts/commit/c2d58583c00da873b7325a530eca049cc82a4af8))
+* **deps:** 🔧 update undici ([746c3f3](https://github.com/iwpnd/rip-ts/commit/746c3f30ae4da5cfd113eb50a62dea5e525a84b0))
+
 ## [1.0.3](https://github.com/iwpnd/rip-ts/compare/v1.0.2...v1.0.3) (2024-02-13)
 
 
