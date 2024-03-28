@@ -1,3 +1,14 @@
+## [1.0.6](https://github.com/iwpnd/rip-ts/compare/v1.0.5...v1.0.6) (2024-03-28)
+
+
+### Other
+
+* 👷 dependabot add github-actions ([e43756b](https://github.com/iwpnd/rip-ts/commit/e43756ba7ca08d31b340b24d19b638a2704d9a72))
+* 👷 fix typo ([ef06dea](https://github.com/iwpnd/rip-ts/commit/ef06dea35408ea15c546d65bfcfd931c372bb134))
+* **deps-dev:** 🔧 update ([99f87e2](https://github.com/iwpnd/rip-ts/commit/99f87e24cddeea989b6e98394937492d84270048))
+* **deps:** 📦️ update ([dd83a23](https://github.com/iwpnd/rip-ts/commit/dd83a23109d55faed570b059145a88a310011606))
+* **deps:** 🔗 update undici ([1073467](https://github.com/iwpnd/rip-ts/commit/10734677e771ff934803105b98bbfe75d8839680))
+
 ## [1.0.5](https://github.com/iwpnd/rip-ts/compare/v1.0.4...v1.0.5) (2024-03-20)
 
 
