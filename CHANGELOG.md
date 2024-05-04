@@ -1,3 +1,13 @@
+## [1.0.9](https://github.com/iwpnd/rip-ts/compare/v1.0.8...v1.0.9) (2024-05-04)
+
+
+### Other
+
+* **deps-dev:** 🔧 downgrade conventional-changelog-conventionalcommits ([74e1bde](https://github.com/iwpnd/rip-ts/commit/74e1bde3fcf546ef374759e34a13c89710ee485e))
+* **deps-dev:** 🔧 downgrade conventional-changelog-conventionalcommits ([9747184](https://github.com/iwpnd/rip-ts/commit/9747184372170b7b73851daf20dd12815430e4ea))
+* **deps-dev:** 🔧 update ([4f67fcb](https://github.com/iwpnd/rip-ts/commit/4f67fcb854dc58d812a9184e1b77c22671618378))
+* **deps:** 🔗 upgrade undici to v6.15.0 ([d5f2e22](https://github.com/iwpnd/rip-ts/commit/d5f2e2275d3182ee178b348f963da4ab0d8a65a7))
+
 ## [1.0.8](https://github.com/iwpnd/rip-ts/compare/v1.0.7...v1.0.8) (2024-04-16)
 
 
