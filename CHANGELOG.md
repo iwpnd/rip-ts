@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/iwpnd/rip-ts/compare/v1.0.9...v1.1.0) (2024-05-05)
+
+
+### Features
+
+* ✨ add timeout to RequestOptions ([0fdde2a](https://github.com/iwpnd/rip-ts/commit/0fdde2a482a833d4aa334d31fbb92c5ee9896b9a))
+
 ## [1.0.9](https://github.com/iwpnd/rip-ts/compare/v1.0.8...v1.0.9) (2024-05-04)
 
 
