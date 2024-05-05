@@ -1,7 +1,9 @@
 import qs from 'querystring';
-import { fetch } from 'undici';
-import { RequestError } from './errors';
+import { Response, fetch } from 'undici';
+import { RequestError, RequestTimeoutError } from './errors';
 import { Params, RequestOptions } from './types';
+
+const DEFAULT_REQUEST_TIMEOUT = 30_000;
 
 const resolveParamsPlaceholder = (path: string, params?: Params): string => {
     if (!params) return path;
@@ -52,13 +54,35 @@ export class RestClient {
         };
 
         const requestURL = `${this.url}${requestPath}${requestQuery}`;
-        const response = await fetch(requestURL, {
-            ...this.options,
-            method: 'GET',
-            ...options,
-            headers: requestHeaders,
-            body: requestBody,
-        });
+
+        const timeout =
+            options?.timeout ||
+            this.options?.timeout ||
+            DEFAULT_REQUEST_TIMEOUT;
+        const controller = new AbortController();
+        const { signal } = controller;
+        const requestTimer = setTimeout(() => {
+            controller.abort();
+        }, timeout);
+
+        let response: Response = new Response();
+        try {
+            response = await fetch(requestURL, {
+                ...this.options,
+                method: 'GET',
+                ...options,
+                headers: requestHeaders,
+                body: requestBody,
+                signal,
+            });
+        } catch (err) {
+            if (err instanceof DOMException && err.name === 'AbortError') {
+                throw new RequestTimeoutError();
+            }
+            throw new RequestError('Something went wrong.', response, null);
+        } finally {
+            clearTimeout(requestTimer);
+        }
 
         let content: T | null = null;
         const contentType = response.headers.get('Content-Type');

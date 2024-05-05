@@ -1,3 +1,4 @@
+/* eslint-disable */
 import { Response } from 'undici';
 
 export class RequestError extends Error {
@@ -13,5 +14,12 @@ export class RequestError extends Error {
         this.response = response;
         this.status = response.status;
         this.body = body;
+    }
+}
+
+export class RequestTimeoutError extends Error {
+    constructor() {
+        super('Request timed out.');
+        this.name = 'RequestTimeoutError';
     }
 }

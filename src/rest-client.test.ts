@@ -1,6 +1,18 @@
 import { MockAgent, setGlobalDispatcher } from 'undici';
 import { RestClient } from '.';
-import { RequestError } from './errors';
+import { RequestError, RequestTimeoutError } from './errors';
+
+export const getError = async <TError>(
+    call: () => unknown
+): Promise<TError> => {
+    try {
+        await call();
+
+        throw new Error('Failed to throw Error');
+    } catch (error: unknown) {
+        return error as TError;
+    }
+};
 
 const mockAgent = new MockAgent({ connections: 1 });
 
@@ -8,7 +20,7 @@ setGlobalDispatcher(mockAgent);
 mockAgent.disableNetConnect();
 
 describe('http-client', () => {
-    const url = 'http://localhost:3000';
+    const url = 'https://localhost:3000';
     const client = new RestClient(url);
 
     const mockPool = mockAgent.get(url);
@@ -60,6 +72,40 @@ describe('http-client', () => {
             ).resolves.toEqual({
                 message: 'hype',
             });
+        });
+
+        it('should perform GET request and throw RequestError on unknown error', async () => {
+            mockPool
+                .intercept({
+                    path: '/resource/baguette',
+                    method: 'GET',
+                })
+                .defaultReplyHeaders({ 'content-type': 'application/json' })
+                .replyWithError(new Error());
+
+            await expect(() =>
+                client.get('/resource/:id', {
+                    params: { id: 'baguette' },
+                })
+            ).rejects.toThrow(RequestError);
+        });
+
+        it('should perform GET request and throw on request timeout', async () => {
+            const clientWithTimeout = new RestClient(url, { timeout: 50 });
+            mockAgent
+                .get(url)
+                .intercept({ path: '/resource/baguette' })
+                .reply(500, { statusCode: 500 })
+                .delay(100);
+
+            const err = await getError<RequestTimeoutError>(async () =>
+                clientWithTimeout.get('/resource/:id', {
+                    params: { id: 'baguette' },
+                })
+            );
+
+            expect(err).toBeInstanceOf(RequestTimeoutError);
+            expect(err.name).toBe('RequestTimeoutError');
         });
     });
 

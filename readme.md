@@ -30,6 +30,8 @@ npm install @iwpnd/rip-ts
 
 ## Usage
 
+### Basic Usage
+
 ```typescript
 import { RestClient } from '@iwpnd/rip-ts';
 
@@ -78,6 +80,29 @@ await client.put('/users/:id', {
 
 // DELETE
 await client.delete('/users/:userId', { params: { userId: 1 } });
+```
+
+### Advanced Usage
+
+#### Timeout
+
+```typescript
+import { RestClient } from '@iwpnd/rip-ts';
+
+type User = {
+    id: string;
+    name: string;
+    isActive: boolean;
+    isAdmin: boolean;
+};
+
+const client = new RestClient('http://localhost:3000', {
+    timeout: 100, // ms, default: 30000
+});
+
+// GET
+await client.get<User>('/users');
+// throws RequestTimeoutError after 100ms
 ```
 
 ## Contributing
