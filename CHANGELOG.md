@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/iwpnd/rip-ts/compare/v1.1.0...v1.1.1) (2024-05-09)
+
+
+### Other
+
+* **deps:** 🔗 update undici to v6.16.0 ([d678c58](https://github.com/iwpnd/rip-ts/commit/d678c58ca95e43a3e546392813e180124b4bc4b3))
+
 ## [1.1.0](https://github.com/iwpnd/rip-ts/compare/v1.0.9...v1.1.0) (2024-05-05)
 
 
