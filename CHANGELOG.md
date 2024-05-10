@@ -1,3 +1,15 @@
+## [1.1.2](https://github.com/iwpnd/rip-ts/compare/v1.1.1...v1.1.2) (2024-05-10)
+
+
+### Bug Fixes
+
+* 🐛 content-type parsing for json response ([ded1ad9](https://github.com/iwpnd/rip-ts/commit/ded1ad9aef77cdd241c1d92985751049e1cb2eaf))
+
+
+### Other
+
+* **deps:** 🔗 bump undici ([ab9d739](https://github.com/iwpnd/rip-ts/commit/ab9d739ca9c3a681d98fbbe5c4078deb32eb11a3))
+
 ## [1.1.1](https://github.com/iwpnd/rip-ts/compare/v1.1.0...v1.1.1) (2024-05-09)
 
 
