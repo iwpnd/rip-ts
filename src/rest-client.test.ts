@@ -28,6 +28,8 @@ describe('http-client', () => {
     describe('request', () => {
         it.each([
             'application/json',
+            'application/json; charset=utf-8',
+            'application/json;charset=utf-8',
             'application/geo+json',
             'application/vnd.geo+json',
         ])('should request with content type: %s', async (contentType) => {
