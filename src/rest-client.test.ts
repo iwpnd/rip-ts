@@ -55,6 +55,30 @@ describe('http-client', () => {
             });
         });
 
+        it.each(['application/geo', 'application/baguette; charset=utf-8'])(
+            'should fail to parse invalid content type as json : %s',
+            async (contentType) => {
+                mockPool
+                    .intercept({
+                        path: '/resource/foobar?foo=bar',
+                        method: 'GET',
+                        headers: {
+                            Accept: 'application/json',
+                        },
+                    })
+                    .defaultReplyHeaders({ 'content-type': contentType })
+                    .reply(200, { message: 'hype' });
+
+                await expect(
+                    client.request('/resource/:resource', {
+                        params: { resource: 'foobar' },
+                        query: { foo: 'bar' },
+                        headers: { Accept: 'application/json' },
+                    })
+                ).resolves.toBeNull();
+            }
+        );
+
         it('should request without substition path parameters', async () => {
             mockPool
                 .intercept({

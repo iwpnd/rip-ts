@@ -16,9 +16,8 @@ const resolveParamsPlaceholder = (path: string, params?: Params): string => {
 };
 
 const isJSON = (contentType: string): boolean => {
-    // TODO: could be nice :|
-    const pattern =
-        /^application\/(vnd\.geo\+json|geo\+json|json|json;charset=utf-8|json; charset=utf-8)$/i;
+    // More generic pattern to match JSON content types
+    const pattern = /^application\/([a-zA-Z0-9!#$&^_.+-]*\+)?json(;.*)?$/i;
     return pattern.test(contentType);
 };
 
