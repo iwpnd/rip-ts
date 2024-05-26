@@ -1,3 +1,15 @@
+## [1.1.3](https://github.com/iwpnd/rip-ts/compare/v1.1.2...v1.1.3) (2024-05-26)
+
+
+### Other
+
+* ♻️ isJSON type content type parsing with more generic pattern ([ac85a63](https://github.com/iwpnd/rip-ts/commit/ac85a63c3fc2ad29894fc463e678c6816e43abca))
+* 🔧 lockfile maintenance ([3c45c36](https://github.com/iwpnd/rip-ts/commit/3c45c36c78c2ef5cd4f7008415822d504877ab0c))
+* **deps-dev:** 🔧 update ([98593ed](https://github.com/iwpnd/rip-ts/commit/98593edcd27cc1a8047c8b4e71879d56a105c572))
+* **deps-dev:** 🔧 update ([77169cd](https://github.com/iwpnd/rip-ts/commit/77169cd73f45f4c5cb1fad8a04e7bbf50f7728d5))
+* **deps-dev:** bump rimraf from 5.0.5 to 5.0.6 ([a65dc56](https://github.com/iwpnd/rip-ts/commit/a65dc56a176c96c8d2ee0f4386200f643ba1c59e))
+* **deps:** 🔗 update undici v6.18.1 ([25fe811](https://github.com/iwpnd/rip-ts/commit/25fe81109747e4dd72145be2f6428087af508181))
+
 ## [1.1.2](https://github.com/iwpnd/rip-ts/compare/v1.1.1...v1.1.2) (2024-05-10)
 
 
