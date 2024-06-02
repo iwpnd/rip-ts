@@ -1,3 +1,11 @@
+## [1.1.4](https://github.com/iwpnd/rip-ts/compare/v1.1.3...v1.1.4) (2024-06-02)
+
+### Other
+
+* **deps-dev:** 🔧 update ([31c013f](https://github.com/iwpnd/rip-ts/commit/31c013f98bb885983ffbb73ced9bdc5c37f04eda))
+* **deps-dev:** 🔧 update semantic release finally ([ace69cf](https://github.com/iwpnd/rip-ts/commit/ace69cf8899b378b2c6b3a674cc8b7c92aea6970))
+* **deps:** 🔗 bump undici, test semantic release ([be0f304](https://github.com/iwpnd/rip-ts/commit/be0f3048df81781451cfbd70c0bbe5cc8e003d90))
+
 ## [1.1.3](https://github.com/iwpnd/rip-ts/compare/v1.1.2...v1.1.3) (2024-05-26)
 
 
