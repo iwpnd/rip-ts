@@ -1,3 +1,12 @@
+## [1.1.5](https://github.com/iwpnd/rip-ts/compare/v1.1.4...v1.1.5) (2024-06-23)
+
+### Other
+
+* **deps-dev:** 🔧 update ([34d3deb](https://github.com/iwpnd/rip-ts/commit/34d3deb3c32907966c914c3dd1f3c156ec867649))
+* **deps-dev:** 🔧 update ([51bebbe](https://github.com/iwpnd/rip-ts/commit/51bebbea945830115e157ceb1e0c8a27d329ab7d))
+* **deps-dev:** bump lint-staged from 15.2.5 to 15.2.7 ([e1a31a9](https://github.com/iwpnd/rip-ts/commit/e1a31a9371ec9ffa68ccfe43f38f351e6a754d22))
+* **deps:** 🔗 update undici to v6.19.2 ([7d31213](https://github.com/iwpnd/rip-ts/commit/7d312138f61e669dc687f47a174b8d2555049e15))
+
 ## [1.1.4](https://github.com/iwpnd/rip-ts/compare/v1.1.3...v1.1.4) (2024-06-02)
 
 ### Other
