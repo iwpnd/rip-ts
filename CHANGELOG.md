@@ -1,3 +1,12 @@
+## [1.1.7](https://github.com/iwpnd/rip-ts/compare/v1.1.6...v1.1.7) (2024-09-04)
+
+### Other
+
+* 🔧 bump nodejs ([f822cd1](https://github.com/iwpnd/rip-ts/commit/f822cd10cc2b884826cc8deb493371fe2e6c7c56))
+* **deps-dev:** 🔧 update ([2ae03ad](https://github.com/iwpnd/rip-ts/commit/2ae03ade3fafd2037d6c7273c419995e957f22d1))
+* **deps-dev:** bump @semantic-release/github ([97a774c](https://github.com/iwpnd/rip-ts/commit/97a774c88cb5634e8affb9896001b25a8032e700))
+* **deps:** 🔗 update undici ([f27f43d](https://github.com/iwpnd/rip-ts/commit/f27f43db76c4ceecadae7a70712ce55d398f5218))
+
 ## [1.1.6](https://github.com/iwpnd/rip-ts/compare/v1.1.5...v1.1.6) (2024-08-15)
 
 ### Other
