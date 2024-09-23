@@ -6,7 +6,9 @@ import { Params, RequestOptions } from './types';
 const DEFAULT_REQUEST_TIMEOUT = 30_000;
 
 const resolveParamsPlaceholder = (path: string, params?: Params): string => {
-    if (!params) return path;
+    if (!params) {
+        return path;
+    }
 
     return Object.entries(params).reduce(
         (acc, [name, value]) =>
@@ -43,7 +45,7 @@ export class RestClient {
 
         const requestBody =
             typeof options?.body === 'object'
-                ? JSON.stringify(options?.body)
+                ? JSON.stringify(options.body)
                 : undefined;
 
         const requestHeaders = {
@@ -56,8 +58,8 @@ export class RestClient {
         const requestURL = `${this.url}${requestPath}${requestQuery}`;
 
         const timeout =
-            options?.timeout ||
-            this.options?.timeout ||
+            options?.timeout ??
+            this.options?.timeout ??
             DEFAULT_REQUEST_TIMEOUT;
         const controller = new AbortController();
         const { signal } = controller;

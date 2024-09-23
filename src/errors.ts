@@ -1,4 +1,3 @@
-/* eslint-disable */
 import { Response } from 'undici';
 
 export class RequestError extends Error {
