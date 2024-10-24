@@ -1,3 +1,15 @@
+## [1.1.8](https://github.com/iwpnd/rip-ts/compare/v1.1.7...v1.1.8) (2024-10-24)
+
+### Other
+
+* 👷 dependabot ignore patch ([f737655](https://github.com/iwpnd/rip-ts/commit/f7376556d53dee0fa90aefb9c771c2735ea308af))
+* **deps-dev:** 🔧 bump eslint9 with flat config ([7a73c3a](https://github.com/iwpnd/rip-ts/commit/7a73c3a34a683e2eda1348e582b4377f113456d5))
+* **deps-dev:** 🔧 fix deprecation warning for husky ([7b0e1a3](https://github.com/iwpnd/rip-ts/commit/7b0e1a38f40c8143954bb18f130b08566c6ee333))
+* **deps-dev:** 🔧 fix deprecation warning for husky ([e9b35d4](https://github.com/iwpnd/rip-ts/commit/e9b35d409d347085ed3a3c267c2446efeae7c7a4))
+* **deps-dev:** 🔧 update ([a9c8769](https://github.com/iwpnd/rip-ts/commit/a9c876944712f1a5a3e2c018793b2c49d9e7c8c6))
+* **deps-dev:** 🔧 update ([01d82a3](https://github.com/iwpnd/rip-ts/commit/01d82a33d77da0c2c0df3f491eb17f6aacfa265d))
+* **deps:** 🔗 bump undici ([0966156](https://github.com/iwpnd/rip-ts/commit/0966156a328f7361b7b9edbbeaa11e65ff68f8af))
+
 ## [1.1.7](https://github.com/iwpnd/rip-ts/compare/v1.1.6...v1.1.7) (2024-09-04)
 
 ### Other
