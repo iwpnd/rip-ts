@@ -6,9 +6,7 @@ import { Params, RequestOptions } from './types';
 const DEFAULT_REQUEST_TIMEOUT = 30_000;
 
 const resolveParamsPlaceholder = (path: string, params?: Params): string => {
-    if (!params) {
-        return path;
-    }
+    if (!params) return path;
 
     return Object.entries(params).reduce(
         (acc, [name, value]) =>
