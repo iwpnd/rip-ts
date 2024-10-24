@@ -1,9 +1,11 @@
 {
   "name": "@iwpnd/rip-ts",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "rest-client",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
@@ -15,7 +17,9 @@
   "author": "B. Ramser <iwpnd@posteo.de>",
   "contributors": [],
   "license": "MIT",
-  "keywords": ["rest-client"],
+  "keywords": [
+    "rest-client"
+  ],
   "engines": {
     "node": ">=20.x",
     "yarn": "^1.22.x"
@@ -69,6 +73,9 @@
     "typescript-eslint": "8.11.0"
   },
   "lint-staged": {
-    "*.ts": ["eslint --fix", "prettier --write"]
+    "*.ts": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   }
 }

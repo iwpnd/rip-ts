@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/iwpnd/rip-ts/compare/v1.1.8...v1.1.9) (2024-10-24)
+
+### Other
+
+* ⚡️ crazy improvement ([1aae95a](https://github.com/iwpnd/rip-ts/commit/1aae95aae5ff6a56c1c54c5a25e46d5c2282b37c))
+* 🔧 attempt to fix publish ([5f749f8](https://github.com/iwpnd/rip-ts/commit/5f749f853691dfb928767d15bdd783f4975e277a))
+
 ## [1.1.8](https://github.com/iwpnd/rip-ts/compare/v1.1.7...v1.1.8) (2024-10-24)
 
 ### Other
