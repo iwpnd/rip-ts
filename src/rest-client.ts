@@ -1,5 +1,6 @@
 import qs from 'querystring';
-import { Response, fetch } from 'undici';
+import { fetch,Response } from 'undici';
+
 import { RequestError, RequestTimeoutError } from './errors';
 import { Params, RequestOptions } from './types';
 

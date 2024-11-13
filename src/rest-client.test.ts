@@ -1,4 +1,5 @@
 import { MockAgent, setGlobalDispatcher } from 'undici';
+
 import { RestClient } from '.';
 import { RequestError, RequestTimeoutError } from './errors';
 
