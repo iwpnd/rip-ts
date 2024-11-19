@@ -1,3 +1,14 @@
+## [1.1.10](https://github.com/iwpnd/rip-ts/compare/v1.1.9...v1.1.10) (2024-11-19)
+
+### Other
+
+* 🎨 import sorting ([70a585d](https://github.com/iwpnd/rip-ts/commit/70a585dae759728b635cbf379723c886d5f0ced0))
+* **deps-dev:** 🔧 update ([975bd77](https://github.com/iwpnd/rip-ts/commit/975bd77c13c46e730fec1cadeced8639c758360f))
+* **deps-dev:** 🔧 update ([2e476f5](https://github.com/iwpnd/rip-ts/commit/2e476f5fed04ba3f9e0389b0b24505a23142770d))
+* **deps-dev:** 🔧 update ([ca2012b](https://github.com/iwpnd/rip-ts/commit/ca2012bc4b02c5c1fd7e706e6edf1839f243fafa))
+* **deps-dev:** 🔧 update ([1d2d670](https://github.com/iwpnd/rip-ts/commit/1d2d67077258eb00360ddfb790fac52a8c0e5448))
+* **deps:** 🔗 bump undici ([7e62020](https://github.com/iwpnd/rip-ts/commit/7e62020f4af82e733d95c86d92845a517e8aa422))
+
 ## [1.1.9](https://github.com/iwpnd/rip-ts/compare/v1.1.8...v1.1.9) (2024-10-24)
 
 ### Other
