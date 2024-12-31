@@ -1,3 +1,11 @@
+## [1.1.11](https://github.com/iwpnd/rip-ts/compare/v1.1.10...v1.1.11) (2024-12-31)
+
+### Other
+
+* **deps-dev:** 🔧 bump node ([24d9caf](https://github.com/iwpnd/rip-ts/commit/24d9caf7c573498aaf76d288ab82786323605b70))
+* **deps-dev:** 🔧 update ([8c8a4bf](https://github.com/iwpnd/rip-ts/commit/8c8a4bfb02f4519d8a1d71d452147d9510c4c6cf))
+* **deps:** 🔗 bump undici to v7.2.0 ([a02d25d](https://github.com/iwpnd/rip-ts/commit/a02d25de2b9956033a9cb4c8e73e53ed2d4967b1))
+
 ## [1.1.10](https://github.com/iwpnd/rip-ts/compare/v1.1.9...v1.1.10) (2024-11-19)
 
 ### Other
