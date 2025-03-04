@@ -1,3 +1,11 @@
+## [1.1.13](https://github.com/iwpnd/rip-ts/compare/v1.1.12...v1.1.13) (2025-03-04)
+
+### Other
+
+* **deps-dev:** 🔧 drop eslint__js types ([c83395c](https://github.com/iwpnd/rip-ts/commit/c83395c61eb9685c6b5f3c319494eb12c2251a12))
+* **deps-dev:** 🔧 update ([0748da6](https://github.com/iwpnd/rip-ts/commit/0748da6d80d2521473990e964194272b85fde031))
+* **deps:** 🔗 undici v7.3.0 ([01ba7f8](https://github.com/iwpnd/rip-ts/commit/01ba7f8fc6e6e48ded75fa02ae61e1cdb7379035))
+
 ## [1.1.12](https://github.com/iwpnd/rip-ts/compare/v1.1.11...v1.1.12) (2025-01-20)
 
 ### Other
