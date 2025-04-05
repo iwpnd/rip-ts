@@ -8,4 +8,6 @@ lerna-debug.log
 .env
 .DS_Store
 
-.yarn/*
+.yarn/cache/*
+.yarn/install-state.gz
+!.yarn/releases
