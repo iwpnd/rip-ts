@@ -24,7 +24,7 @@ jobs:
       run: echo "${{ secrets.GITHUB_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
     - name: yarn cache
       id: yarn-cache
-      run: echo "::set-output name=dir::./yarn/cache"
+      run: echo "dir=./yarn/cache" >> $GITHUB_OUTPUT
     - uses: actions/cache@v4
       with:
         path: ${{ steps.yarn-cache.outputs.dir }}
@@ -57,7 +57,7 @@ jobs:
         node-version: 20
     - name: yarn cache
       id: yarn-cache
-      run: echo "::set-output name=dir::./yarn/cache"
+      run: echo "dir=./yarn/cache" >> $GITHUB_OUTPUT
     - uses: actions/cache@v4
       with:
         path: ${{ steps.yarn-cache.outputs.dir }}
