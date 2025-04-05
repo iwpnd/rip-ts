@@ -1,3 +1,14 @@
+## [1.1.16](https://github.com/iwpnd/rip-ts/compare/v1.1.15...v1.1.16) (2025-04-05)
+
+### Other
+
+* 👷 drop deprecated set-output ([5fcbad2](https://github.com/iwpnd/rip-ts/commit/5fcbad24c5a273988ba566eafd7cca47d4cddaf5))
+* 👷 fix yarn berry cache ([5d1f99c](https://github.com/iwpnd/rip-ts/commit/5d1f99c80c03a1794804d63b25ff6a8756bf522e))
+* 👷 keep cache dir ([6964078](https://github.com/iwpnd/rip-ts/commit/6964078c7758fee4ae8f1a622009fec04196930b))
+* 👷 yarn install immutable ([2410349](https://github.com/iwpnd/rip-ts/commit/24103491015d75083f1093fbe0cf19cc0f115c21))
+* 🔧 upgrade to yarn berry ([21599e6](https://github.com/iwpnd/rip-ts/commit/21599e62e66e61bfe013fe1a658841a2f6b99a0a))
+* **deps:** 🔗 bump undici v7.7.0 and test berry release ([141b6c9](https://github.com/iwpnd/rip-ts/commit/141b6c9821794adb9c081678434ee84b964d6098))
+
 ## [1.1.15](https://github.com/iwpnd/rip-ts/compare/v1.1.14...v1.1.15) (2025-03-31)
 
 ### Other
