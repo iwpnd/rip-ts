@@ -55,6 +55,8 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version-file: .nvmrc
+    - name: enable corepack
+      run: corepack enable
     - name: yarn cache
       id: yarn-cache
       run: echo "dir=./yarn/cache" >> $GITHUB_OUTPUT
