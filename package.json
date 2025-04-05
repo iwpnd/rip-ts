@@ -21,21 +21,19 @@
     "rest-client"
   ],
   "engines": {
-    "node": ">=20.x",
-    "yarn": "^1.22.x"
+    "node": ">=20.x"
   },
-  "private": false,
   "scripts": {
     "postinstall": "yarn husky init",
     "prepublishOnly": "pinst --disable && yarn run build",
     "postpublish": "pinst --enable",
     "build": "tsc",
-    "build:watch": "tsc--watch",
+    "build:watch": "tsc --watch",
     "clean": "rimraf {dist,tsconfig.tsbuildinfo,yarn-error.log,coverage}",
     "lint": "eslint ./src",
     "test": "jest --runInBand --verbose --testMatch '**/*test.ts' --coverage",
     "format": "prettier --write src/{*.ts,**/*.ts}",
-    "u": "yarn upgrade-interactive --latest",
+    "u": "yarn upgrade-interactive",
     "coverage": "FILE=./coverage/lcov-report/index.html; test -f $FILE && open $FILE || echo 'no coverage yet, run yarn test'",
     "prepare": "husky"
   },
@@ -45,8 +43,8 @@
   "devDependencies": {
     "@commitlint/cli": "19.8.0",
     "@commitlint/config-conventional": "19.8.0",
-    "@eslint/core": "0.12.0",
-    "@eslint/js": "9.23.0",
+    "@eslint/core": "0.13.0",
+    "@eslint/js": "9.24.0",
     "@semantic-release/changelog": "6.0.3",
     "@semantic-release/git": "10.0.1",
     "@semantic-release/github": "11.0.1",
@@ -55,11 +53,12 @@
     "@types/estree": "1.0.7",
     "@types/jest": "29.5.14",
     "@types/json-schema": "7.0.15",
-    "@typescript-eslint/eslint-plugin": "8.28.0",
-    "@typescript-eslint/parser": "8.28.0",
+    "@types/node": "^22.14.0",
+    "@typescript-eslint/eslint-plugin": "8.29.0",
+    "@typescript-eslint/parser": "8.29.0",
     "conventional-changelog-conventionalcommits": "8.0.0",
     "devmoji": "2.3.0",
-    "eslint": "9.23.0",
+    "eslint": "9.24.0",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "husky": "9.1.7",
     "jest": "29.7.0",
@@ -68,14 +67,15 @@
     "prettier": "3.5.3",
     "rimraf": "6.0.1",
     "semantic-release": "24.2.3",
-    "ts-jest": "29.3.0",
-    "typescript": "5.8.2",
-    "typescript-eslint": "8.28.0"
+    "ts-jest": "29.3.1",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.29.0"
   },
   "lint-staged": {
     "*.ts": [
       "eslint --fix",
       "prettier --write"
     ]
-  }
+  },
+  "packageManager": "yarn@4.8.1"
 }
