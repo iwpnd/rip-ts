@@ -1,3 +1,11 @@
+## [1.1.17](https://github.com/iwpnd/rip-ts/compare/v1.1.16...v1.1.17) (2025-05-19)
+
+### Other
+
+* **deps-dev:** 🔧 update ([66d2527](https://github.com/iwpnd/rip-ts/commit/66d2527d2e1ca39dac712a049af9da6365441292))
+* **deps-dev:** 🔧 update ([e5cd6fc](https://github.com/iwpnd/rip-ts/commit/e5cd6fc812a52c4697271c29485cc43daead4f1a))
+* **deps:** 🔗 update undici v7.9.0 ([a914c7f](https://github.com/iwpnd/rip-ts/commit/a914c7f2781fc9beb38a671634349d0f8bdae77b))
+
 ## [1.1.16](https://github.com/iwpnd/rip-ts/compare/v1.1.15...v1.1.16) (2025-04-05)
 
 ### Other
