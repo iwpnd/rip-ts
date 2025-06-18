@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/iwpnd/rip-ts/compare/v1.1.17...v1.1.18) (2025-06-18)
+
+### Other
+
+* **deps-dev:** 🔧 update ([d93ea89](https://github.com/iwpnd/rip-ts/commit/d93ea898db9ad3f72d81bd450468e2aa18eaffe3))
+* **deps:** 🔗 bump undici ([6fdcad5](https://github.com/iwpnd/rip-ts/commit/6fdcad595577db6890bbbb14b811b814713af367))
+
 ## [1.1.17](https://github.com/iwpnd/rip-ts/compare/v1.1.16...v1.1.17) (2025-05-19)
 
 ### Other
