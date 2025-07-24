@@ -1,3 +1,12 @@
+## [1.1.20](https://github.com/iwpnd/rip-ts/compare/v1.1.19...v1.1.20) (2025-07-24)
+
+### Other
+
+* 🔧 make dependabot weekly ([5b37b98](https://github.com/iwpnd/rip-ts/commit/5b37b98b4e75d7ac83728ea89c40b0000eae72af))
+* **deps-dev:** 🔧 update ([4e171a9](https://github.com/iwpnd/rip-ts/commit/4e171a921441c700ba413b6a277f6c510dd9a4d9))
+* **deps-dev:** 🔧 update ([ea60128](https://github.com/iwpnd/rip-ts/commit/ea601282b55c1b8e33768fd68b71f836d5bfa499))
+* **deps:** 🔗 update ([cf59020](https://github.com/iwpnd/rip-ts/commit/cf590207ec3a6d5ff4169943afb5430b0c1b7961))
+
 ## [1.1.19](https://github.com/iwpnd/rip-ts/compare/v1.1.18...v1.1.19) (2025-07-01)
 
 ### Other
