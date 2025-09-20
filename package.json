@@ -1,6 +1,6 @@
 {
   "name": "@iwpnd/rip-ts",
-  "version": "1.1.21",
+  "version": "1.1.22",
   "description": "rest-client",
   "main": "dist/index.js",
   "files": [
