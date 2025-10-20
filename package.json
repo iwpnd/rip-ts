@@ -54,7 +54,7 @@
     "@types/jest": "30.0.0",
     "@types/json-schema": "7.0.15",
     "@types/node": "^24.8.1",
-    "@typescript-eslint/eslint-plugin": "8.46.1",
+    "@typescript-eslint/eslint-plugin": "8.46.2",
     "@typescript-eslint/parser": "8.46.1",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "devmoji": "2.3.0",
