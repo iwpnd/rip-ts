@@ -1,3 +1,24 @@
+## [1.1.23](https://github.com/iwpnd/rip-ts/compare/v1.1.22...v1.1.23) (2026-01-06)
+
+### Other
+
+* 👷 dependabot config ([7485242](https://github.com/iwpnd/rip-ts/commit/74852425af5e868113c83714703ba6714fe57a6e))
+* 👷 fix content permission ([375078f](https://github.com/iwpnd/rip-ts/commit/375078fa43bcb6a0bf5e608eccab72949ff07454))
+* 👷 oicd setup ([2b3c380](https://github.com/iwpnd/rip-ts/commit/2b3c3809f3f8a04e3981a90182f5a67655e8e563))
+* 👷 update actions ([76c709d](https://github.com/iwpnd/rip-ts/commit/76c709d2a74ff90a9742f4596c7475f0fbc539f6))
+* **deps-dev:** 🔧 update ([3f33993](https://github.com/iwpnd/rip-ts/commit/3f3399311c4434141cb3e08dd2bcc155f27bb4c9))
+* **deps-dev:** 🔧 update ([625d7fb](https://github.com/iwpnd/rip-ts/commit/625d7fb2f31453f0b45b0d9d2b23d5a6d0b42a75))
+* **deps-dev:** 🔧 update ([6342795](https://github.com/iwpnd/rip-ts/commit/6342795462dc3138200d69f22af7cd0828e597b6))
+* **deps-dev:** 🔧 update ([7d8a911](https://github.com/iwpnd/rip-ts/commit/7d8a9112de93252c182bc2a50f31cfd50bfac480))
+* **deps-dev:** 🔧 update ([a014cd2](https://github.com/iwpnd/rip-ts/commit/a014cd271e8cc07b838aa073c81c611f346a4894))
+* **deps-dev:** 🔧 update ([0f56dd5](https://github.com/iwpnd/rip-ts/commit/0f56dd51e66e553fe13977f6401707b0be06b748))
+* **deps-dev:** 🔧 update ([df25fff](https://github.com/iwpnd/rip-ts/commit/df25fff35d48d88fda7c16a28b51793c7e6cfbcf))
+* **deps-dev:** bump lint-staged from 16.2.5 to 16.2.6 ([8807cdd](https://github.com/iwpnd/rip-ts/commit/8807cdd353d4d488bb62c879ef0b9af554ec04d5))
+* **deps:** 🔗 update undici ([70f3579](https://github.com/iwpnd/rip-ts/commit/70f3579f006b395468a9f07c1d0a391eb0108525))
+* **deps:** bump actions/setup-node from 4 to 5 ([90d5212](https://github.com/iwpnd/rip-ts/commit/90d52127c9d8de12e1b3f32bcc7832aa139b69e8))
+* **gha:** bump actions/cache from 4 to 5 ([2e2ecc5](https://github.com/iwpnd/rip-ts/commit/2e2ecc5730a92a8aa14f1bc38c43b96a4a81c4bf))
+* **gha:** bump actions/checkout from 5 to 6 ([d8e4bff](https://github.com/iwpnd/rip-ts/commit/d8e4bffb5570807a1ff44f242a2bbfde9c643860))
+
 ## [1.1.22](https://github.com/iwpnd/rip-ts/compare/v1.1.21...v1.1.22) (2025-09-20)
 
 ### Other
