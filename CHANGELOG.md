@@ -1,3 +1,10 @@
+## [1.1.24](https://github.com/iwpnd/rip-ts/compare/v1.1.23...v1.1.24) (2026-01-26)
+
+### Other
+
+* **deps-dev:** 🔧 update ([70a795b](https://github.com/iwpnd/rip-ts/commit/70a795b82c212863789e8bd82dbb0fa586091d0b))
+* **deps:** 🔗 update ([4a1f1c2](https://github.com/iwpnd/rip-ts/commit/4a1f1c22102642fd27d3d48d6c60becaa3ee7ab0))
+
 ## [1.1.23](https://github.com/iwpnd/rip-ts/compare/v1.1.22...v1.1.23) (2026-01-06)
 
 ### Other
