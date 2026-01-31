@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/iwpnd/rip-ts/compare/v1.1.24...v1.2.0) (2026-01-31)
+
+### Features
+
+* ✨ require node >= 24 ([e5cc3a2](https://github.com/iwpnd/rip-ts/commit/e5cc3a268949b64a7cd2a7f15b31e59fc35ec2bc))
+
+### Other
+
+* **deps-dev:** 🔧 update ([ec17506](https://github.com/iwpnd/rip-ts/commit/ec175064adfc75192571fbb1ef4f4a6df624a530))
+
 ## [1.1.24](https://github.com/iwpnd/rip-ts/compare/v1.1.23...v1.1.24) (2026-01-26)
 
 ### Other
