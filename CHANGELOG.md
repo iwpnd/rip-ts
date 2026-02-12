@@ -1,3 +1,11 @@
+## [1.2.1](https://github.com/iwpnd/rip-ts/compare/v1.2.0...v1.2.1) (2026-02-12)
+
+### Other
+
+* 🔧 revert update to eslint until typescript-eslint caught up ([a77277e](https://github.com/iwpnd/rip-ts/commit/a77277ed00b6be307695b01e9e994a349e06251a))
+* **deps-dev:** 🔧 update ([6f3577c](https://github.com/iwpnd/rip-ts/commit/6f3577c1286677eb1394bf1f0052641407d5e985))
+* **deps:** 🔗 update ([884d7a5](https://github.com/iwpnd/rip-ts/commit/884d7a5d68dcf2dd63785b45e0d6ba5cca565547))
+
 ## [1.2.0](https://github.com/iwpnd/rip-ts/compare/v1.1.24...v1.2.0) (2026-01-31)
 
 ### Features
