@@ -910,7 +910,7 @@ __metadata:
     "@eslint/js": "npm:9.39.2"
     "@semantic-release/changelog": "npm:6.0.3"
     "@semantic-release/git": "npm:10.0.1"
-    "@semantic-release/github": "npm:12.0.5"
+    "@semantic-release/github": "npm:12.0.6"
     "@semantic-release/npm": "npm:13.1.4"
     "@semantic-release/release-notes-generator": "npm:14.1.0"
     "@types/estree": "npm:1.0.8"
@@ -1793,9 +1793,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@semantic-release/github@npm:12.0.5":
-  version: 12.0.5
-  resolution: "@semantic-release/github@npm:12.0.5"
+"@semantic-release/github@npm:12.0.6":
+  version: 12.0.6
+  resolution: "@semantic-release/github@npm:12.0.6"
   dependencies:
     "@octokit/core": "npm:^7.0.0"
     "@octokit/plugin-paginate-rest": "npm:^14.0.0"
@@ -1816,7 +1816,7 @@ __metadata:
     url-join: "npm:^5.0.0"
   peerDependencies:
     semantic-release: ">=24.1.0"
-  checksum: 10/c79315f72695ab65f26d7b574cf163bbf8bef5dbe1946bb5cc279ce7d83d8d399ecfcd84399763771ff8ec74ba0b7fad6cf8f4e8f6ae6866e87c075f8fef2923
+  checksum: 10/641ba4d51233741ab0dd1e923004d0fb5635848c34a4db203eae23a34b6cc0905950e91f24fccb4a7105378c24cae0d7ccbd1c8c9650360740e61892c986a025
   languageName: node
   linkType: hard
 
