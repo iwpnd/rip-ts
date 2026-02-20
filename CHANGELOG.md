@@ -1,3 +1,11 @@
+## [1.2.2](https://github.com/iwpnd/rip-ts/compare/v1.2.1...v1.2.2) (2026-02-20)
+
+### Other
+
+* **deps-dev:** bump @semantic-release/github from 12.0.5 to 12.0.6 ([2830573](https://github.com/iwpnd/rip-ts/commit/28305734741d37181809287a35ac28d6d8f1af4d))
+* **deps-dev:** bump rimraf from 6.1.2 to 6.1.3 ([bff943e](https://github.com/iwpnd/rip-ts/commit/bff943ed9729aba62d126eba8b370bd217a77163))
+* **deps:** bump undici from 7.21.0 to 7.22.0 ([748500d](https://github.com/iwpnd/rip-ts/commit/748500dcf52f4c67c2d9a46f7abc727e1b2f91e1))
+
 ## [1.2.1](https://github.com/iwpnd/rip-ts/compare/v1.2.0...v1.2.1) (2026-02-12)
 
 ### Other
